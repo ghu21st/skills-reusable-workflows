@@ -34,7 +34,7 @@ jobs:
       pull-requests: write
     steps:
       - name: Comment on PR URL
-        uses: GrantBirki/comment@2.1.1
+        uses: GrantBirki/comment@v2.1.1
         with:
           issue-number: ${{ github.event.pull_request.number }}
           body: |
